@@ -1,7 +1,7 @@
 $vbox = "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
 $vm = "ubuntu-nginx"
 $url = "http://localhost:8081/"
-8..10 | ForEach-Object {
+1..10 | ForEach-Object {
     $sw = [Diagnostics.Stopwatch]::StartNew()
     & $vbox startvm $vm --type headless | Out-Null
     if ($LASTEXITCODE -ne 0) { "run $_ : GECERSIZ (startvm hata verdi)"; return }
