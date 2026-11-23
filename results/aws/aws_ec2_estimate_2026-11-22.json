@@ -1,0 +1,43 @@
+{
+	"Name": "My Estimate",
+	"Total Cost": {
+		"monthly": "19.09",
+		"upfront": "0.00",
+		"12 months": "229.08"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "22.11.2026 23:23:35",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=8695c312bbbdade11ae7f079c8a196a333990f49"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "EC2 t3.small for VM-vs-container comparison",
+				"Region": "Europe (Milan)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "19.09",
+					"upfront": "0.00",
+					"12 months": "229.08"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"Workload": "Consistent, Number of instances: 1",
+					"Advance EC2 instance": "t3.small",
+					"Pricing strategy": "On-Demand Utilization: 100 %Utilized/Month",
+					"Enable monitoring": "disabled",
+					"EBS Storage amount": "15 GB",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Internet": "2 GB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			}
+		]
+	}
+}
